@@ -1,0 +1,21 @@
+# Core Framework & Agentic Orchestration
+langchain
+langchain-core
+langchain-community
+langgraph
+
+# Model Provider
+langchain-openai
+openai
+
+# Web Search & Scraping Tools
+tavily-python
+beautifulsoup4
+requests
+
+# Environment & Formatting
+python-dotenv
+rich
+
+# Web UI Interface
+streamlit
