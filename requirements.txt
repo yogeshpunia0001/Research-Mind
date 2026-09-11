@@ -4,7 +4,9 @@ langchain-core
 langchain-community
 langgraph
 
-# Model Provider
+# Model Providers
+langchain-google-genai
+google-generativeai
 langchain-openai
 openai
 

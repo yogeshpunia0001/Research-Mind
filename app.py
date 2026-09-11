@@ -5,7 +5,7 @@ from agents import build_reader_agent, build_search_agent, writer_chain, critic_
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Research Mind · AI Research Agent",
-    page_icon="🔬",
+    page_icon="favicon.png",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
