@@ -5,6 +5,8 @@ langchain-community
 langgraph
 
 # Model Providers
+langchain-groq
+groq
 langchain-google-genai
 google-generativeai
 langchain-openai

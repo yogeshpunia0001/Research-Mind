@@ -1,5 +1,5 @@
 from langchain.agents import create_agent
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from tools import web_search, scrape_url
@@ -7,9 +7,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Model setup using Google Gemini (Active Production Model)
-llm = ChatGoogleGenerativeAI(
-    model="gemini-3.6-flash",
+# Active production model on your Groq key
+llm = ChatGroq(
+    model="openai/gpt-oss-20b",
     temperature=0
 )
 
